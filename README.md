@@ -8,10 +8,10 @@
 - :white_check_mark: Aula 04 — Instalando Java
 - :white_check_mark: Aula 05 — Meu primeiro programa
 - :white_check_mark: Aula 06 — Memória volátil
-- Aula 07 — Variáveis e tipos primitivos
-- Aula 08 — Comentários + Exercícios
-- Aula 09 — Instalando IDE IntelliJ Idea
-- Aula 10 — Valores literais + exercícios
+- :white_check_mark: Aula 07 — Variáveis e tipos primitivos
+- :white_check_mark: Aula 08 — Comentários + Exercícios
+- :white_check_mark: Aula 09 — Instalando IDE IntelliJ Idea
+- :white_check_mark: Aula 10 — Valores literais + exercícios
 - Aula 11 — Reutilizando variáveis + exercícios
 - Aula 12 — String, char e boolean
 - Aula 13 — Controle de fluxo if-else pt 01
