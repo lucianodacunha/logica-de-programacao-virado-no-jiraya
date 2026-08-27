@@ -12,11 +12,11 @@
 - :white_check_mark: Aula 08 — Comentários + Exercícios
 - :white_check_mark: Aula 09 — Instalando IDE IntelliJ Idea
 - :white_check_mark: Aula 10 — Valores literais + exercícios
-- Aula 11 — Reutilizando variáveis + exercícios
-- Aula 12 — String, char e boolean
-- Aula 13 — Controle de fluxo if-else pt 01
-- Aula 14 — Controle de fluxo if-else pt 02
-- Aula 15 — Controle de fluxo if-else pt 03
+- :white_check_mark: Aula 11 — Reutilizando variáveis + exercícios
+- :white_check_mark: Aula 12 — String, char e boolean
+- :white_check_mark: Aula 13 — Controle de fluxo if-else pt 01
+- :white_check_mark: Aula 14 — Controle de fluxo if-else pt 02
+- :white_check_mark: Aula 15 — Controle de fluxo if-else pt 03
 - Aula 16 — Controle de fluxo IF - ELSE pt 04
 - Aula 17 — Controle de fluxo IF - ELSE pt 05
 - Aula 18 — Controle de fluxo IF - ELSE pt 06
