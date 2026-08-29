@@ -17,16 +17,16 @@
 - :white_check_mark: Aula 13 — Controle de fluxo if-else pt 01
 - :white_check_mark: Aula 14 — Controle de fluxo if-else pt 02
 - :white_check_mark: Aula 15 — Controle de fluxo if-else pt 03
-- Aula 16 — Controle de fluxo IF - ELSE pt 04
-- Aula 17 — Controle de fluxo IF - ELSE pt 05
-- Aula 18 — Controle de fluxo IF - ELSE pt 06
-- Aula 19 — Lendo dados do teclado
-- Aula 20 — Controle de fluxo IF - ELSE pt 07
-- Aula 21 — Controle de fluxo IF - ELSE pt 08
-- Aula 22 — Controle de fluxo IF - ELSE pt 09
-- Aula 23 — Controle de fluxo IF - ELSE pt 10
-- Aula 24 — Controle de fluxo IF - ELSE pt 11
-- Aula 25 — Estruturando o código em pacotes
+- :white_check_mark: Aula 16 — Controle de fluxo IF - ELSE pt 04
+- :white_check_mark: Aula 17 — Controle de fluxo IF - ELSE pt 05
+- :white_check_mark: Aula 18 — Controle de fluxo IF - ELSE pt 06
+- :white_check_mark: Aula 19 — Lendo dados do teclado
+- :white_check_mark: Aula 20 — Controle de fluxo IF - ELSE pt 07
+- :white_check_mark: Aula 21 — Controle de fluxo IF - ELSE pt 08
+- :white_check_mark: Aula 22 — Controle de fluxo IF - ELSE pt 09
+- :white_check_mark: Aula 23 — Controle de fluxo IF - ELSE pt 10
+- :white_check_mark: Aula 24 — Controle de fluxo IF - ELSE pt 11
+- :white_check_mark: Aula 25 — Estruturando o código em pacotes
 - Aula 26 — Switch case pt 01
 - Aula 27 — Switch case pt 02
 - Aula 28 — While pt 01
