@@ -27,24 +27,24 @@
 - :white_check_mark: Aula 23 — Controle de fluxo IF - ELSE pt 10
 - :white_check_mark: Aula 24 — Controle de fluxo IF - ELSE pt 11
 - :white_check_mark: Aula 25 — Estruturando o código em pacotes
-- Aula 26 — Switch case pt 01
-- Aula 27 — Switch case pt 02
-- Aula 28 — While pt 01
-- Aula 29 — While pt 02
-- Aula 30 — While pt 03
-- Aula 31 — While pt 04
-- Aula 32 — Do-While pt 05
-- Aula 33 — For pt 01
-- Aula 34 — For pt 02
-- Aula 35 — For pt 03
-- Aula 36 — Arrays pt 01
-- Aula 37 — Arrays pt 02
-- Aula 38 — Arrays pt 03
-- Aula 39 — Arrays pt 04
-- Aula 40 — Arrays Multidimensionais pt 01
-- Aula 41 — Arrays Multidimensionais pt 02
-- Aula 42 — Arrays Multidimensionais pt 03
-- Aula 43 — Acabou! E agora?
+- :white_check_mark: Aula 26 — Switch case pt 01
+- :white_check_mark: Aula 27 — Switch case pt 02
+- :white_check_mark: Aula 28 — While pt 01
+- :white_check_mark: Aula 29 — While pt 02
+- :white_check_mark: Aula 30 — While pt 03
+- :white_check_mark: Aula 31 — While pt 04
+- :white_check_mark: Aula 32 — Do-While pt 05
+- :white_check_mark: Aula 33 — For pt 01
+- :white_check_mark: Aula 34 — For pt 02
+- :white_check_mark: Aula 35 — For pt 03
+- :white_check_mark: Aula 36 — Arrays pt 01
+- :white_check_mark: Aula 37 — Arrays pt 02
+- :white_check_mark: Aula 38 — Arrays pt 03
+- :white_check_mark: Aula 39 — Arrays pt 04
+- :white_check_mark: Aula 40 — Arrays Multidimensionais pt 01
+- :white_check_mark: Aula 41 — Arrays Multidimensionais pt 02
+- :white_check_mark: Aula 42 — Arrays Multidimensionais pt 03
+- :white_check_mark: Aula 43 — Acabou! E agora?
 
 ## Material complementar
 
