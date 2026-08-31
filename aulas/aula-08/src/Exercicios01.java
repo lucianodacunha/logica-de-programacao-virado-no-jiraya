@@ -1,0 +1,22 @@
+/**
+ * Crie uma classe chamada CalculadorDiferencaIdade
+ * Crie uma variavel para guardar a primeira idade 
+ * Crie uma variavel para guardar a segunda idade
+ * Crie uma variavel para guardar a diferenca entre as duas idades
+ * Imprima a diferenca no console
+ * 
+ */
+public class Exercicios01 {
+    public static void main(String[] args){
+        int primeiraIdade = 30;
+        int segundaIdade = 25;
+        int diferencaDeIdades = primeiraIdade - segundaIdade;
+        System.out.println(
+            "A diferenca entre a primeiraIdade: " + 
+                primeiraIdade +
+                " e a segundaIdade: " +
+                segundaIdade +
+                " => " + diferencaDeIdades
+            );
+    }
+}
