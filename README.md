@@ -46,11 +46,8 @@
 - :white_check_mark: Aula 42 — Arrays Multidimensionais pt 03
 - :white_check_mark: Aula 43 — Acabou! E agora?
 
-## Material complementar
+## Extras
 
-- [ ] Exercícios adicionais
-- [ ] Desafios de lógica
-- [ ] Anotações das aulas
-- [ ] Conceitos complementares
-- [ ] Revisão geral
-- [ ] Projeto final de lógica
+- :white_check_mark: Exercícios adicionais
+- :white_check_mark: Projeto final de lógica
+- :white_check_mark: Recomendação Final
