@@ -59,8 +59,19 @@ public class InformacoesDoUsuario {
         boolean temCNH = entrada.nextBoolean();
 
         System.out.println("\nExibindo dados do Usuario");
-        System.out.printf("Nome: %s \nIdade: %d \nAltura: %.2f " +
-                "\nSexo: %s \nCNH: %s", nome, idade, altura, sexo, temCNH);
+        System.out.printf(
+                "Nome: %s%n" +
+                "Idade: %d%n" +
+                "Altura: %.2f%n" +
+                "Sexo: %c%n" +
+                "CNH: %b%n",
+                nome,
+                idade,
+                altura,
+                sexo,
+                temCNH
+        );
 
+        entrada.close();
     }
 }
