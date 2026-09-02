@@ -46,19 +46,19 @@ public class MediaDoAluno {
         Scanner entrada = new Scanner(System.in);
         double[] notas = new double[3];
         double soma = 0.0;
-        double media = 0.0;
+        double media;
         String resultado;
-        boolean notaInvalida = true;
 
         // Insercao de notas
         System.out.println("Entre com as notas do aluno:");
         for(int i = 0; i < notas.length; i++){
-            while(notaInvalida){
+            boolean notaValida = false;
+            while(!notaValida){
                 System.out.printf("Nota %d: ", (i+1));
                 notas[i] = entrada.nextDouble();
                 // Verificacao de nota
                 if(notas[i] >= 0 && notas[i] <= 10){
-                    break;
+                    notaValida = true;
                 } else {
                     System.out.println("Nota invalida, digite novamente.");
                 }
@@ -70,7 +70,7 @@ public class MediaDoAluno {
         }
         media = soma / notas.length;
 
-        System.out.printf("\nMedia: %.2f\n", media);
+        System.out.printf("%nMedia: %.2f%n", media);
 
         if (media >= 7){
             resultado = "Aprovado";
