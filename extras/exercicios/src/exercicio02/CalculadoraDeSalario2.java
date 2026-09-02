@@ -1,5 +1,4 @@
 package exercicio02;
-
 /**
  * Crie um programa que armazene o valor de um salário.
  *
@@ -36,21 +35,21 @@ package exercicio02;
  */
 import java.util.Scanner;
 
-public class CalculadoraDeSalario {
+public class CalculadoraDeSalario2 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        double[] percetuaisDoSalario = new double[]{0.3, 0.15, 0.05};
-        double percentualCalculado;
 
         System.out.print("Entre com o valor do salario: ");
         double salario = entrada.nextDouble();
-        for(int i = 0; i < percetuaisDoSalario.length; i++){
-            percentualCalculado = salario * percetuaisDoSalario[i];
-            System.out.printf("%.0f%%: R$ %.2f%n",
-                    (percetuaisDoSalario[i] * 100), percentualCalculado);
-        }
+
+        System.out.printf("Salario: R$ %.2f%n%n", salario);
+        double percentualDoSalario = salario * 0.3;
+        System.out.printf("30%%: R$ %.2f%n", percentualDoSalario);
+        percentualDoSalario = salario * 0.15;
+        System.out.printf("15%%: R$ %.2f%n", percentualDoSalario);
+        percentualDoSalario = salario * 0.05;
+        System.out.printf("5%%: R$ %.2f%n", percentualDoSalario);
 
         entrada.close();
-
     }
 }
