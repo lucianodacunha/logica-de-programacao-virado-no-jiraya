@@ -47,7 +47,7 @@ public class SomaAteZero {
         int numero;
         int quantidade = 0;
         int soma = 0;
-        double media = 0;
+        double media = 0.0;
         int maior = 0;
         int menor = 0;
 
@@ -57,12 +57,16 @@ public class SomaAteZero {
             if (numero != 0){
                 quantidade++;
                 soma += numero;
-                media = soma / quantidade;
-                if (numero > maior || maior == 0){
+                if (quantidade == 1) {
                     maior = numero;
-                }
-                if (numero < menor || menor == 0){
                     menor = numero;
+                } else {
+                    if (numero > maior) {
+                        maior = numero;
+                    }
+                    if (numero < menor) {
+                        menor = numero;
+                    }
                 }
             }
         } while (numero != 0);
@@ -70,13 +74,14 @@ public class SomaAteZero {
         entrada.close();
 
         if (quantidade > 0){
-        System.out.printf(
-                "%nQuantidade %d%n" +
-                "Soma %d%n" +
-                "Media: %.2f%n" +
-                "Maior: %d%n" +
-                "Menor: %d%n",
-                quantidade, soma, media, maior, menor);
+            media = (double) soma / quantidade;
+            System.out.printf(
+                    "%nQuantidade %d%n" +
+                    "Soma %d%n" +
+                    "Media: %.2f%n" +
+                    "Maior: %d%n" +
+                    "Menor: %d%n",
+                    quantidade, soma, media, maior, menor);
         }
     }
 }
