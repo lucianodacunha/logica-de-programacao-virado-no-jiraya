@@ -53,17 +53,19 @@ public class JogoDeAdivinhacao {
         do {
             int tentativas = 0;
             do {
-                System.out.print("Digite seu palpite [1-100]: ");
+                System.out.print("Digite seu palpite: ");
                 palpite = entrada.nextInt();
+                tentativas++;
                 if (palpite > numeroSecreto){
                     System.out.println("O numero secreto e menor");
                 } else if (palpite < numeroSecreto){
                     System.out.println("O numero secreto e maior");
                 } else {
-                    System.out.println("Parabens! Voce acertou");
+                    System.out.printf(
+                            "%nParabens! Voce acertou" +
+                            "%nTentativas: %d%n", tentativas);
                 }
-                tentativas++;
-            } while (palpite != numeroSecreto && tentativas < 3);
+            } while (palpite != numeroSecreto);
 
             System.out.printf("%nDeseja jogar novamente? [S/N]: ");
             jogarNovamente = entrada.next().toUpperCase().charAt(0);
