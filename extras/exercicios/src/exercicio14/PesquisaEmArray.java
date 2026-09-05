@@ -40,6 +40,7 @@ public class PesquisaEmArray {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int[] numeros = new int[]{1, 45, 56, 59, 96, 38, 53, 24, 50, 56};
+        boolean numeroEncontrado = false;
 
         System.out.print("Digite um numero: ");
         int numeroProcurado = entrada.nextInt();
@@ -49,7 +50,12 @@ public class PesquisaEmArray {
                 System.out.printf(
                         "%nNumero encontrado!" +
                         "%nIndice: %d", i);
+                numeroEncontrado = true;
             }
+        }
+
+        if (!numeroEncontrado){
+            System.out.println("Numero nao encontrado.");
         }
 
         entrada.close();
